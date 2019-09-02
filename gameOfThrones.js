@@ -7,4 +7,4 @@ function gameOfThrones(s) {
     (acc, v) => acc + s.replace(new RegExp(`[^${v}]`, `g`), ``).length % 2, 0
   ) <= 1 ? `YES` : `NO`
 }
-console.log(gameOfThrones('aaabbbb'))
+console.log(gameOfThrones('aaabbbb'));
